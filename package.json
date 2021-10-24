@@ -8,20 +8,26 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "format": "prettier -w \"**/*.ts\""
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.108.1",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "1.108.1",
     "ts-node": "^9.0.0",
-    "typescript": "~3.9.7"
+    "typescript": "~3.9.7",
+    "aws-cdk-lib": "2.0.0-rc.25",
+    "@aws-cdk/assert": "2.0.0-rc.25",
+    "constructs": "10.0.0"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.108.1",
-    "source-map-support": "^0.5.16"
+    "@aws-cdk/assert": "2.0.0-rc.25",
+    "aws-cdk-lib": "2.0.0-rc.25",
+    "aws-sdk": "^2.1006.0",
+    "cdk-dia": "^0.3.0",
+    "constructs": "10.0.0",
+    "prettier": "^2.4.1"
   }
 }

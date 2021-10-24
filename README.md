@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project!
+# Forecast AWS cost and usage using Forecast and Databrew with CDK version 2 in TypeScript
 
-This is a blank project for TypeScript development with CDK.
+This is a cost and usage report forcast project for TypeScript development with CDK.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -12,3 +12,8 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+ * `npm run format`  format the code according to the prettier settings
+
+## Forecast Costs architectural diagram
+
+![Forecast Costs architectural diagram](./forecast.jpg)
