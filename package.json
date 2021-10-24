@@ -1,0 +1,33 @@
+{
+  "name": "aws_cost_forecast",
+  "version": "0.1.0",
+  "bin": {
+    "aws_cost_forecast": "bin/aws_cost_forecast.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "format": "prettier -w \"**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7",
+    "aws-cdk-lib": "2.0.0-rc.25",
+    "@aws-cdk/assert": "2.0.0-rc.25",
+    "constructs": "10.0.0"
+  },
+  "dependencies": {
+    "@aws-cdk/assert": "2.0.0-rc.25",
+    "aws-cdk-lib": "2.0.0-rc.25",
+    "aws-sdk": "^2.1006.0",
+    "cdk-dia": "^0.3.0",
+    "constructs": "10.0.0",
+    "prettier": "^2.4.1"
+  }
+}

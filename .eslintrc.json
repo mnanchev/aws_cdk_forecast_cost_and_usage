@@ -1,0 +1,38 @@
+{
+  "root": true,
+  "ignorePatterns": [],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "plugins": ["prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {}
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["prettier"],
+      "parserOptions": {
+        "project": "./tsconfig.*?.json"
+      },
+      "rules": {}
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": [],
+      "rules": {}
+    }
+  ]
+}
