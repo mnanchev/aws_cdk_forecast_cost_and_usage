@@ -269,7 +269,7 @@ export class AwsCostForecastStack extends Stack {
         action: 'createPredictor',
         parameters: {
           PredictorName: `costAndUsageReportTrainPredictor`,
-          ForecastHorizon: 3,
+          ForecastHorizon: 7,
           FeaturizationConfig: {
             ForecastFrequency: 'D',
             ForecastDimensions: ['account_id'],
